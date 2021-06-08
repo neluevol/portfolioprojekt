@@ -1,0 +1,287 @@
+.wrapper {
+    display: grid;
+    width: auto;
+    min-height: 100vh;
+    grid-template-areas: 
+     "h1 h1 h1"
+     "n1 n2 n3"
+     "a1 a1 a1"
+     "a1 a1 a1"
+     "a1 a1 a1"
+     "a2 a2 a2"
+     "f1 f1 f1"
+    ;
+    grid-gap: 0.5rem;
+
+}
+
+.gallerywrapper {
+    display: grid;
+    width: auto;
+    min-height: 100vh;
+    grid-template-areas:
+    "h1 h1 h1"
+    "n1 n2 n3"
+    "a5 a6 a7"
+    "a8 a9 a10"
+    "a11 a12 a13"
+    "a14 a15 a16"
+    ;
+    grid-gap: 0.5rem;
+}
+
+.contactwrapper {
+    display: grid;
+    width: auto;
+    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+     "h1 h1 h1"
+     "n1 n2 n3"
+     "a17 a17 as1"
+     "a17 a17 as1"
+     "a18 a18 as1"
+    ;
+    grid-gap: 0.5rem;
+
+}
+
+.header {
+    grid-area: h1;
+    color: black;
+    text-align: center;
+    letter-spacing: 00.35rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav1 {
+
+    grid-area: n1;
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+
+}
+
+.nav2 {
+    grid-area: n2;
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+
+}
+
+.nav3 {
+    grid-area: n3;
+    color: black;
+    text-align: center;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+
+}
+
+.article1 {
+
+    display: flex;
+    align-content: center;
+    grid-area: a1;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.25rem;
+    background-image: url(chad.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 1rem;
+    
+}
+
+.article2 {
+
+    grid-area: a2;
+    display: flex;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2.5rem;
+    letter-spacing: 0.15rem;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+
+}
+
+.article5 {
+    grid-area: a5;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish1.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article6 {
+    grid-area: a6;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article7 {
+    grid-area: a7;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish3.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article8 {
+    grid-area: a8;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article9 {
+    grid-area: a9;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish1.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article10 {
+    grid-area: a10;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article11 {
+    grid-area: a11;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish3.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article12 {
+    grid-area: a12;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article13 {
+    grid-area: a13;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish1.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article14 {
+    grid-area: a14;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article15 {
+    grid-area: a15;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish3.jpeg);
+    background-size: 100%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article16 {
+    grid-area: a16;
+    height: 25rem;
+    letter-spacing: 0.25rem;
+    background-image: url(fish4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+    border-radius: 1rem;
+}
+
+.article17 {
+    grid-area: a17;
+    height: 40rem;
+    border-radius: 1rem;
+    background-size: 100%;
+    background-position: top;
+    background-image: url(chad.jpeg);
+}
+
+.article18 {
+    grid-area: a18;
+    padding: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer1 {
+    grid-area: f1;
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.aside1 {
+    grid-area: as1;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    padding: 2rem;
+    line-height: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signature {
+    width: 50%;
+    height: auto;
+}
+
+h2 {
+
+    margin: auto;
+    display: block;
+
+}
